@@ -28,7 +28,7 @@
 		<init-param>
 			<param-name>permissions</param-name>
 			<param-value>
-				/resource : PUBLIC;
+				/javax.faces.resource : PUBLIC;
 				/public : PUBLIC;
 				/pages : PUBLIC;
 			</param-value>
