@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_8" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="Maven: jakarta.platform:jakarta.jakartaee-web-api:9.1.0" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.resource:jakarta.resource-api:2.0.0" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.transaction:jakarta.transaction-api:2.0.0-RC1" scope="PROVIDED"/>
+	<lib name="Maven: org.junit.jupiter:junit-jupiter-api:5.8.2" scope="TEST"/>
+	<lib name="Maven: org.opentest4j:opentest4j:1.2.0" scope="TEST"/>
+	<lib name="Maven: org.junit.platform:junit-platform-commons:1.8.2" scope="TEST"/>
+	<lib name="Maven: org.apiguardian:apiguardian-api:1.1.2" scope="TEST"/>
+	<lib name="Maven: org.junit.jupiter:junit-jupiter-engine:5.8.2" scope="TEST"/>
+	<lib name="Maven: org.junit.platform:junit-platform-engine:1.8.2" scope="TEST"/>
+	<levels>
+		<level name="Maven: jakarta.platform:jakarta.jakartaee-web-api:9.1.0" value="project"/>
+		<level name="Maven: jakarta.resource:jakarta.resource-api:2.0.0" value="project"/>
+		<level name="Maven: jakarta.transaction:jakarta.transaction-api:2.0.0-RC1" value="project"/>
+		<level name="Maven: jakarta.annotation:jakarta.annotation-api:2.0.0" value="project"/>
+		<level name="Maven: org.glassfish:jakarta.faces:3.0.1" value="project"/>
+		<level name="Maven: org.junit.jupiter:junit-jupiter-api:5.8.2" value="project"/>
+		<level name="Maven: org.opentest4j:opentest4j:1.2.0" value="project"/>
+		<level name="Maven: org.junit.platform:junit-platform-commons:1.8.2" value="project"/>
+		<level name="Maven: org.apiguardian:apiguardian-api:1.1.2" value="project"/>
+		<level name="Maven: org.junit.jupiter:junit-jupiter-engine:5.8.2" value="project"/>
+		<level name="Maven: org.junit.platform:junit-platform-engine:1.8.2" value="project"/>
+		<level name="Maven: javax:javaee-web-api:8.0.1" value="project"/>
+		<level name="Maven: javax:javaee-api:8.0.1" value="project"/>
+		<level name="Maven: com.sun.mail:javax.mail:1.6.2" value="project"/>
+		<level name="Maven: javax.activation:activation:1.1" value="project"/>
+	</levels>
+</component>

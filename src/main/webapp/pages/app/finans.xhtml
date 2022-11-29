@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+    <meta charset="utf-8"/>
+    <title>Home</title>
+</h:head>
+<h:body style="background-color: #eee; margin: 0.5em;">
+  <h1>Tu będzie pierwsza strona</h1>
+
+    <h:form id="form-table" style="margin-bottom:1em;">
+
+
+        <p:dataTable value="#{usersBB.getFullList()}" var="u">
+
+            <p:column priority="5">
+                <f:facet name="header">
+                    <h:outputText value="imię" />
+                </f:facet>
+                <h:outputText value="#{u.name}" />
+            </p:column>
+
+            <p:column>
+                <f:facet name="header">
+                    <h:outputText value="login" />
+                </f:facet>
+                <h:outputText value="#{u.login}" />
+            </p:column>
+
+            <p:column>
+                <f:facet name="header">
+                    <h:outputText value="haslo" />
+                </f:facet>
+                <h:outputText value="#{u.family.inviteCode }" />
+            </p:column>
+
+        </p:dataTable>
+    </h:form>
+</h:body>
+</html>
