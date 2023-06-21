@@ -1,4 +1,4 @@
-<p><strong>Opis projektu na studia dla aplikacji webowej do zarządzania budżetem rodzinnym w języku Java z wykorzystaniem JavaEE, WildFly i PrimeFaces:</strong></p>
+<h1> <p><strong>Opis projektu na studia dla aplikacji webowej do zarządzania budżetem rodzinnym w języku Java z wykorzystaniem JavaEE, WildFly i PrimeFaces:</strong></p><h1>
 
 <p>Projekt <em>Budget Manager</em> jest aplikacją webową napisaną w języku Java, która ma na celu zapewnienie skutecznego zarządzania budżetem rodzinnym. Wykorzystując <strong>JavaEE</strong>, <strong>WildFly</strong> i <strong>PrimeFaces</strong>, aplikacja oferuje funkcje umożliwiające monitorowanie wydatków, planowanie budżetu oraz śledzenie oszczędności.</p>
 
